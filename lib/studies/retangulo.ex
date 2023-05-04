@@ -1,17 +1,17 @@
 defmodule Retangulo do
 
-# Para calcular a área de um retângulo basta multiplicar a base pela altura.
+  # Para calcular a área de um retângulo basta multiplicar a base pela altura.
 
-# O cálculo da sua área é o produto da altura pela base, sendo a fórmula:
+  # O cálculo da sua área é o produto da altura pela base, sendo a fórmula:
 
-# A = b.h
+  # A = b.h
 
-# onde:
+  # onde:
 
-# b = base do retângulo
-# h = altura do retângulo
+  # b = base do retângulo
+  # h = altura do retângulo
 
-  def calcula(x,y) do
-    x*y
+    def calcula(x,y) do
+      x*y
+    end
   end
-end
