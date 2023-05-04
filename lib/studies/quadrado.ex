@@ -1,4 +1,4 @@
-defmodule Math do
+defmodule Quadrado do
 
 # Um quadrado possui lados iguais.
 
@@ -7,7 +7,7 @@ defmodule Math do
 # Um quadrado medindo 10cm de cada lado, sua área será:
 
 # 10cm * 10cm = 100cm
-def quadrado(x) do
+def calcula(x) do
   x*x
 end
 end
